@@ -1,0 +1,32 @@
+{
+  "name": "taman-kelong-website",
+  "version": "1.0.0",
+  "description": "Taman Kelong Restaurant Website with Node.js Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "restaurant",
+    "website",
+    "nodejs",
+    "express",
+    "reservation"
+  ],
+  "author": "Kelompok Eldian",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "helmet": "^7.1.0",
+    "express-session": "^1.17.3",
+    "dotenv": "^16.3.1"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  }
+}
